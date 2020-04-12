@@ -22,7 +22,7 @@ public class Runner {
                 .forEach(System.out::println);
 
         System.out.println("Compare by name");
-        
+
         people
                 .stream()
                 .sorted(Comparator.comparing(Person::getName))
